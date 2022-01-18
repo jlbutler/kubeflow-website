@@ -6,36 +6,28 @@ weight = 25
 
 ## Compatibility
 
-Starting with Kubeflow version 1.2, Amazon EKS maintains end-to-end testing between EKS Kubernetes versions and Kubeflow versions. The following table relates compatibility between Kubernetes versions 1.15+ on Amazon EKS and Kubeflow version {{% aws/kfctl-aws %}}.
+Starting with Kubeflow version 1.2, Amazon EKS maintains end-to-end testing between EKS Kubernetes versions and Kubeflow versions. The following table relates compatibility between Kubernetes versions on Amazon EKS and Kubeflow version v1.3 (XXX shortcode).
 
 <div class="table-responsive">
   <table class="table table-bordered">
     <thead class="thead-light">
       <tr>
         <th>EKS Versions</th>
-        <th>Kubeflow {{% aws/kfctl-aws %}})</th>
+        <th>Kubeflow {{% aws/kfctl-aws %}} XXX need a new shortcode for version</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>1.15</td>
-        <td><b>Compatible</b></td>
-      </tr>
-      <tr>
-        <td>1.16</td>
-        <td><b>Compatible</b></td>
-      </tr>
-      <tr>
-        <td>1.17</td>
-        <td><b>Compatible</b></td>
-      </tr>
-      <tr>
-        <td>1.18</td>
-        <td><b>Compatible</b></td>
-      </tr>
-      <tr>
         <td>1.19</td>
-        <td><b>No known issues</b></td>
+        <td><b>Compatible</b></td>
+      </tr>
+      <tr>
+        <td>1.20</td>
+        <td><b>Compatible</b></td>
+      </tr>
+      <tr>
+        <td>1.21</td>
+        <td><b>Compatible</b></td>
       </tr>
     </tbody>
   </table>

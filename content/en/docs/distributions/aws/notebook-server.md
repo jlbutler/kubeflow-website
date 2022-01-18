@@ -16,11 +16,4 @@ Additional pre-installed packages:
 - `kfp`
 - `kfserving`
 
-These images are available from the Amazon Elastic Container Registry (Amazon ECR).
-
-```
-527798164940.dkr.ecr.us-west-2.amazonaws.com/tensorflow-1.15.2-notebook-cpu:1.2.0
-527798164940.dkr.ecr.us-west-2.amazonaws.com/tensorflow-1.15.2-notebook-gpu:1.2.0
-527798164940.dkr.ecr.us-west-2.amazonaws.com/tensorflow-2.1.0-notebook-cpu:1.2.0
-527798164940.dkr.ecr.us-west-2.amazonaws.com/tensorflow-2.1.0-notebook-gpu:1.2.0
-```
+Refer to the [documentation](https://docs.aws.amazon.com/deep-learning-containers/latest/devguide/deep-learning-containers-images.html) and the upstream [project on GitHub](https://github.com/aws/deep-learning-containers) for the list of [available container images](https://github.com/aws/deep-learning-containers/blob/master/available_images.md).

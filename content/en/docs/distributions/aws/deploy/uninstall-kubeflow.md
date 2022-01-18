@@ -6,10 +6,17 @@ weight = 30
 
 ## Uninstall Kubeflow
 
-The following command will delete the Kubeflow installation created via `kfctl install`.
+First ensure all Kubeflow profiles are deleted.
+
+```shell
+kubectl get profile
+kubectl delete profile --all
+```
+
+The following command will delete the Kubeflow deployment.
 
 ```
-kfctl delete -V -f kfctl_aws.yaml
+kustomize build example | kubectl delete -f -
 ```
 
 > Note: This will not delete your Amazon EKS cluster, you must manually delete it by yourself if desired.
